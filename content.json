@@ -1,0 +1,74 @@
+{
+    "Format": "2.9.0", 
+
+    "DynamicTokens": [
+        {
+      "Name": "WeekDayList",
+      "Value": "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+  }, 
+  {
+      "Name": "WeekDay",
+      "Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
+    }
+  ],
+    "Changes":
+	  [
+           	 {
+   		 "LogName": "Blank JSON load", //The logline is not required, but it's useful down the road for labeling your patches so you can tell your problem is, say "NPC Dialogue Patch" and not "NPC Patch #14"
+        	"Action": "Load",
+        	"Target": "Characters/Dialogue/IggyNova, Characters/schedules/IggyNova, Strings/schedules/IggyNova",
+        	"FromFile": "assets/blank.json" //this should be wherever you put it in your assets folder - put it in a subfolder if you want.
+   	 },
+{
+    "Action": "Load",
+    "Target": "Data/NPCData",
+    "FromFile": "assets/NPCData.json"
+},
+{ 
+    "Action": "Include",
+    "FromFile": "assets/NPCData.json, assets/dialogue.json, assets/marriageDialogue.json, assets/schedule.json, assets/mapdata.json"
+},
+{
+            "Action": "Load",
+            "Target": "Characters/IggyNova",
+            "FromFile": "images/sprites.png",
+            "Priority": "Low"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/IggyNova",
+            "FromFile": "images/portraits.png",
+            "Priority": "Low"
+        },
+       
+    
+     {
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "IggyNovaRiver": "0/24 25 26 27 28/0",
+        "IggyNovaDrinking": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 18 18 18 18 18 18 18 19 19 19 18 18 19 19 17/16",
+        "IggyNovaDrinking2": "20/20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 24 22 22 22 22 22 22 22 23 23 23 22 22 23 23 24/20",
+        "iggynova_sleeping": "34/34 34 34 35 35 34 34 34/34"
+      }
+    },
+            {
+           "LogName": "GiftReactions",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+            "IggyNova": "Wow, this is incredible! Thank you./607 649 162 392/Thanks @, I really like this gift!/18 402 418 408/Well, it certainly is... something./80 330 416/Thanks, I hate it!/-6 227 229 456/Ehhhhhh.....//"
+
+                }
+                },
+        {
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "IggyNova0": "I can't believe I am about to be married!$h",
+                "IggyNova1": "I hope I don't get cold feet"
+            }
+        }
+      ]
+    }

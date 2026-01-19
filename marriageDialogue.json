@@ -1,0 +1,116 @@
+{
+  "Changes": [
+     {
+
+            "Logname": "IggyNova Marriage Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/IggyNova",
+            "Entries": {
+  
+  "Iggy.Marriage.Spring_CacklingCaracal_IggyNova": "Everything's waking up again. And I'm still somehow more chaotic than the bees.",
+  "Iggy.Marriage.Summer_CacklingCaracal_IggyNova": "Sun's high, sweat's real, and I look amazing. Want me to drag you into the shade or the spotlight?",
+  "Iggy.Marriage.Fall_CacklingCaracal_IggyNova": "Mmm... things are crisp, colorful, a little bit dying. Perfect season.",
+  "Iggy.Marriage.Winter_CacklingCaracal_IggyNova": "Cold air, hot drinks, soft sweaters... and me, obviously. Come warm up.",
+  "Iggy.Marriage.patio_CacklingCaracal_IggyNova": "You caught me vibing. Patio life suits me. Might build a shrine to chaotic peace out here.",
+  "Iggy.Marriage.spouseRoom_CacklingCaracal_IggyNova": "It's a little messy, a little cursed, and all mine. You still love it though, don't lie.",
+
+
+  "Iggy.Marriage.Rainy_Day_0": "Rain again? Honestly, love it. Gives me main character energy.",
+  "Iggy.Marriage.Rainy_Day_1": "You know what rainy days are for? Being reckless inside.",
+  "Iggy.Marriage.Rainy_Day_2": "Clouds are crying and I'm feeling poetic. You've been warned.",
+  "Iggy.Marriage.Rainy_Day_3": "Kinda want to dance in it. Kinda want to drag you with me.",
+  "Iggy.Marriage.Rainy_Day_4": "Rain means everything smells like wet dirt and secrets.",
+  "Iggy.Marriage.Rainy_Day_5": "Stay in, stay warm, stay tangled up in me. Just a thought.",
+
+
+  "Iggy.Marriage.Indoor_Day_0": "Indoor day? Works for me. I've got enough chaos bottled up to make it interesting.",
+  "Iggy.Marriage.Indoor_Day_1": "Let's build a pillow fort and pretend the world doesn't exist.",
+  "Iggy.Marriage.Indoor_Day_2": "I alphabetized my regrets while you were out. Want to hear them?",
+  "Iggy.Marriage.Indoor_Day_3": "If I nap on your lap and purr, pretend you're not charmed.",
+  "Iggy.Marriage.Indoor_Day_4": "It's warm in here. Safer too. Until I get bored, anyway.",
+  "Iggy.Marriage.Indoor_Day_5": "You're lucky you're cute. I'd have thrown socks at you otherwise.",
+
+   "Iggy.Marriage.SpouseStardrop": "...Whoa. You didn't say it'd feel like my soul's on fire. This is... unreal. You seriously break every rule in my heart.",
+    "Iggy.Marriage.FlowerDance_Accept_Spouse": "Dance with you? Always. Even if I step on your feet, it'll still be magic.",
+    "Iggy.Marriage.Outdoor_0": "I'll be back before the sky gets jealous of me.",
+    "Iggy.Marriage.Outdoor_1": "Gotta stretch my chaos legs. Don't burn the place down while I'm out!",
+    "Iggy.Marriage.Outdoor_2": "Just out hunting down inspiration... or trouble. Same thing.",
+    "Iggy.Marriage.Outdoor_3": "I'm going to go scream at the clouds a little. Love you.",
+    "Iggy.Marriage.Outdoor_4": "Don't miss me too hard. Unless it's sexy when you do.",
+    "Iggy.Marriage.Outdoor_5": "Out for a bit. If I come back with glitter on me,don't ask.",
+    "Iggy.Marriage.Outdoor_6": "If I find something cursed, I'm bringing it home for you.",
+    "Iggy.Marriage.Good_0": "Miss me? I missed your face so bad it hurt.",
+    "Iggy.Marriage.Good_1": "Came back with a pocket full of weird and a heart full of you.",
+    "Iggy.Marriage.Good_2": "Being away from you made the world too quiet.",
+    "Iggy.Marriage.Good_3": "I saw something beautiful and thought, -not as beautiful as you.' Gross, right?",
+    "Iggy.Marriage.Good_4": "Okay okay, I'm back. Did you pine? I bet you pined.",
+    "Iggy.Marriage.Good_5": "Hey. I'm home. And yes,I brought snacks and affection.",
+    "Iggy.Marriage.Good_6": "You wouldn't believe the nonsense I ran into. I saved the best part of the day for you though.",
+    "Iggy.Marriage.Good_7": "I couldn't stay away too long. You're kind of my favorite disaster.",
+    "Iggy.Marriage.Good_8": "I'm back! Tell me everything I missed, especially the dramatic bits.",
+    "Iggy.Marriage.Good_9": "I brought back a rock. It reminded me of your stubborn face.",
+    "Iggy.Marriage.Good_10": "Back in one piece... mostly. Missed you like a storm misses thunder.",
+    "Iggy.Marriage.Good_11": "Don't act like you didn't peek out the window waiting for me. I felt it.",
+    "Iggy.Marriage.Good_12": "Hug me or I'll tackle you. Your choice.",
+    "Iggy.Marriage.Good_13": "Home again, home again, kiss me silly.",
+    "Iggy.Marriage.spring_4": "Spring smells like second chances and grass stains. Wanna cause some trouble in the wildflowers?",
+    "Iggy.Marriage.spring_8": "Rainy mornings like this? Perfect for staying in and pretending the outside world doesn't exist.",
+    "Iggy.Marriage.spring_13": "I swear I saw a bunny with a grudge in the yard. Spring's weird, babe.",
+    "Iggy.Marriage.spring_20": "Everything's blooming again. I'm pretending it's all just for us.",
+    "Iggy.Marriage.spring_23": "How many daffodils do I have to pick before I get to kiss you again?",
+    "Iggy.Marriage.spring_24": "Got pollen on my nose and love in my heart. Don't judge me.",
+    "Iggy.Marriage.spring_28": "End of spring... makes me kinda nostalgic. For what, I'm not sure. Maybe for you, even when you're here.",
+    "Iggy.Marriage.Spicy.Rainy_Day_0": "Mmm. Rainy days like this make me wanna stay in bed... and maybe keep you there too.",
+    "Iggy.Marriage.Spicy.Rainy_Night_2.1": "Come closer. The thunder's not the only thing rumbling tonight.",
+    "Iggy.Marriage.Spicy.Rainy_Night_2.2": "Storm outside, storm inside,you picking up what I'm putting down?",
+    "Iggy.Marriage.Spicy.Rainy_Night_4": "If I light a candle and whisper your name, will you come curl around me like a spell?",
+    "Iggy.Marriage.Spicy.Rainy_Night_5": "These sheets are cold. Wanna do something reckless about it?",
+    "Iggy.Marriage.Spicy.Good_8.1": "Your lips or mine first? Don't answer,just *do* something about it.",
+    "Iggy.Marriage.Spicy.Good_8.2": "I missed your hands on me. Say hi properly.",
+    "Iggy.Marriage.Spicy.Indoor_Night_2.1": "I could spend all night tracing constellations on your skin.",
+    "Iggy.Marriage.Spicy.Indoor_Night_2.2": "The world's asleep. Let's misbehave quietly.",
+    "Iggy.Marriage.Spicy.Good_9": "There you are. My favorite sin.",
+
+  "Iggy.Marriage.Neutral_0": "You again. You always show up when I'm just about to enjoy the silence.",
+  "Iggy.Marriage.Neutral_1": "Hey. Don't get too excited—I'm not in a cuddly mood. Yet.",
+  "Iggy.Marriage.Neutral_2": "You want something, or just here to orbit my mood swings?",
+  "Iggy.Marriage.Neutral_3": "Some days I like being alone. Other days, I tolerate you.",
+  "Iggy.Marriage.Neutral_4": "Huh. You're still here. That's... something.",
+  "Iggy.Marriage.Neutral_5": "I don't know if I want company right now. But I guess you'll do.",
+  "Iggy.Marriage.Neutral_6": "You ever have a day where everything feels off? Welcome to mine.",
+  "Iggy.Marriage.Neutral_7": "I'm not mad. I'm not *not* mad. I'm just... weathering.",
+  "Iggy.Marriage.Neutral_8": "There's a version of me that kisses you right now. This isn't her.",
+  "Iggy.Marriage.Neutral_9": "You're kind of like static—lowkey irritating, but I notice when it's gone.",
+
+ 
+  "Iggy.Marriage.Bad_0": "...You've got some nerve showing up like we're okay.",
+  "Iggy.Marriage.Bad_1": "Don't talk to me unless you've got an apology or a time machine.",
+  "Iggy.Marriage.Bad_2": "This isn't a fight. This is me letting the silence win.",
+  "Iggy.Marriage.Bad_3": "You don't get to act normal after what you pulled.",
+  "Iggy.Marriage.Bad_4": "Keep your distance. I'm one sharp look away from saying too much.",
+  "Iggy.Marriage.Bad_5": "Nope. Not today. Try again when you're not a disappointment.",
+  "Iggy.Marriage.Bad_6": "I'm not your little chaos gremlin when I'm hurt. Remember that.",
+  "Iggy.Marriage.Bad_7": "Don't fake it with me. I bite back now.",
+  "Iggy.Marriage.Bad_8": "I don't want sweet words. I want the truth, even if it burns.",
+  "Iggy.Marriage.Bad_9": "Whatever we are right now? It's not working. And I'm tired of pretending."
+}
+}
+  ]
+}
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 

@@ -1,0 +1,19 @@
+{
+  "Changes": [
+    {
+      "LogName": "Iggy's Schedule",
+      "Target": "Characters/schedules/IggyNova",
+      "Action": "EditData",
+      "Entries": {
+        "spring": "700 {{ModId}}_IggysHouse 4 5 2/1000 Forest 3 34 2/1400 Saloon 1 19 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping",
+        "Mon": "700 {{ModId}}_IggysHouse 4 5 2/930 Beach 55 17 2/1800 Saloon 1 18 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping",
+        "Tues": "700 {{ModId}}_IggysHouse 4 5 2/930 ArchaeologyHouse 22 4 2/1230 AdventureGuild 11 13 0/1500 Town 61 20 2/1800 Saloon 1 18 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping",
+        "Wed": "700 {{ModId}}_IggysHouse 4 5 2/1000 SeedShop 13 28 1/1300 Town 36 97 0/1600 Beach 55 17 2/1800 Saloon 1 18 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping",
+        "Thurs": "700 {{ModId}}_IggysHouse 4 5 2/930 Beach 55 17 2/1800 Saloon 1 18 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping",
+        "Fri": "700 {{ModId}}_IggysHouse 4 5 2/930 Beach 55 17 2/1800 Saloon 1 18 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping",
+        "Sat": "GOTO Mon",
+        "Sun": "700 {{ModId}}_IggysHouse 4 5 2/930 Beach 55 17 2/1300 Beach 18 17 2/1800 Saloon 1 18 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping"
+      }
+    }
+  ]
+}

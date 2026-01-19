@@ -1,0 +1,12 @@
+{
+    "Name": "NPC IggyNova",
+    "Author": "CacklingCaracal",
+    "Version": "0.5",
+    "Description": "New NPC Iggy",
+    "UniqueID": "CacklingCaracal.IggyNova",
+    "UpdateKeys": [],
+    "ContentPackFor": 
+    {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
