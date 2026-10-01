@@ -1,0 +1,86 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Even": {
+                    "DisplayName": "Even",
+                    "BirthSeason": "Summer",
+                    "BirthDay": 11,
+                    "HomeRegion": "Town",
+                    "Language": "Default",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "IsDarkSkinned": false,
+                    "CanBeRomanced": "false",
+                    "LoveInterest": null,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "AlwaysShown",
+                    "CanSocialize": null,
+                    "CanReceiveGifts": true,
+                    "CanGreetNearbyCharacters": true,
+                    "CanCommentOnPurchasedShopItems": null,
+                    "CanVisitIsland": null,
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": null,
+                    "PerfectionScore": true,
+                    "EndSlideShow": "MainGroup",
+                    "SpouseAdopts": null,
+                    "SpouseWantsChildren": "False",
+                    "SpouseGiftJealousy": null,
+                    "SpouseGiftJealousyFriendshipChange": -30,
+                    "SpouseFloors": [],
+                    "SpouseWallpapers": [],
+                    "DumpsterDiveFriendshipEffect": -25,
+                    "DumpsterDiveEmote": null,
+                    "FriendsAndFamily": {},
+                    "FlowerDanceCanDance": false,
+                    "WinterStarGifts": [],
+                    "WinterStarParticipant": null,
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "FestivalVanillaActorIndex": 15,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "{{ModId}}_EvenandRiottRoom",
+                            "Tile": {
+                                "X": 6,
+                                "Y": 7
+                            },
+                            "Direction": "Up"
+                        }
+                    ],
+                    "TextureName": null,
+                    "MugShotSourceRect": null,
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true,
+                    "BreathChestRect": null,
+                    "BreathChestPosition": null,
+                    "Shadow": null,
+                    "EmoteOffset": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "ShakePortraits": [],
+                    "KissSpriteIndex": 28,
+                    "KissSpriteFacingRight": false,
+                    "HiddenProfileEmoteSound": null,
+                    "HiddenProfileEmoteDuration": -1,
+                    "HiddenProfileEmoteStartFrame": 16,
+                    "HiddenProfileEmoteFrameCount": 1,
+                    "HiddenProfileEmoteFrameDuration": 200.0,
+                    "FormerCharacterNames": [],
+                    "CustomFields": null
+                }
+            }
+        }
+    ]
+}

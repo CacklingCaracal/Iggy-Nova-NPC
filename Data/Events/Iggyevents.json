@@ -1,0 +1,13 @@
+{
+    "Changes": [
+
+    {
+        "LogName": "Iggy in the Valley",
+        "Action": "EditData",
+        "Target": "Data/Events/Forest",
+        "Entries": {
+            "MP.IggyIntro/GameStateQuery PLAYER_HAS_MET Current Iggy/Time 1400 2300": "none/58 28/Iggy 48 26 3 Wizard 100 100 0/skippable/pause 400/faceDirection Iggy 1/faceDirection Iggy 2/emote Iggy 40/move Iggy 0 1 2/faceDirection Iggy 3/pause 400/faceDirection Iggy 1/speak Iggy \"Looks like Riott was right. There *is* an old strange magic here.\"/pause 400/warp Wizard 48 24/faceDirection Wizard 2/emote Iggy 16/faceDirection Iggy 0/jump Iggy 5/speak Iggy \"Man, Ras, you know I hate it when you show up like that.\"/emote Wizard 32/speak Wizard \"Just as you, Iggy, know that I loathe being called Ras.#$b# Or should I call you Ign-\"/shake Iggy 400/emote Iggy 12/speak Iggy \"Don't use that name Rasmodius!$5#$b# That is my *fey* name. Names have *power* where I'm from.\"/emote Wizard 40/pause 400/speak Wizard \"Very well. Anyway, I have a proposition for you. I need someone to help me with a little... experiment. I think you might be the perfect candidate.\"/pause 400/speak Iggy \"An experiment? What kind of experiment?\"/emote Wizard 16/speak Wizard \"Well, I can't go into too much detail right now, but it involves some... interesting magic.#$b# I think you could really benefit from it.\"/pause 400/speak Iggy \"I don't know, Rasmodius.......\"/emote Wizard 32/speak Wizard \"Oh, come on, Iggy. Where's your sense of adventure? This could be a great opportunity for you!#$b# You are here to learn about the magic here in the Valley, aren't you?\"/pause 400/speak Iggy \"Hmph, yeah yeah fine.... but what do I have to do?\"/emote Wizard 16/speak Wizard \"Just follow my instructions and everything will be fine. Trust me.\"/pause 400/speak Iggy \"Alright, Ras. I'll give it a shot.\"/emote Wizard 40/pause 400/speak Wizard \"Great! Let's get started then.\"/pause 400/faceDirection Iggy 2/emote Iggy 12/pause 400/speak Iggy \"Okay, I'm ready. What do you want me to do?\"/emote Wizard 16/speak Wizard \"First, I need you to gather some ingredients for me. I'll give you a list of what I need.\"/pause 400/speak Iggy \"Sure thing, Ras. Just tell me what you need and I'll get it for you.\"/emote Wizard 12/pause 400/speak Wizard \"Alright, here we go...\"/pause 400/speak Wizard \"Though I really wish you wouldn't call me Ras.\"/speak Iggy \"Too bad! I like it.\"/pause 400/textAboveHead Wizard \"Fine.\"/end"
+        }
+    }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "LogName": "Mail",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{ModId}}_IggyArrivalLetter": "Hello farmer,^^The Green Rain seems to have blown in a potential new friend."
+        }
+    ]
+}

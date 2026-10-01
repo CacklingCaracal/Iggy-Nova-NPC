@@ -1,0 +1,91 @@
+{
+    "Changes": [
+           
+ {
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_IggysHouse",
+            "FromFile": "images/Maps/IggysHouse.tmx"
+        },
+       
+          {
+		"LogName": "Iggy's House",
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+
+                "{{ModId}}_IggysHouse": {
+          "DisplayName": "Iggy's House",
+          "DefaultArrivalTile": { "X": 7, "Y": 9 },
+          "CreateOnLoad": { 
+            "MapPath": "Maps/{{ModId}}_IggysHouse" 
+        }
+    }
+                    }
+                },
+            
+        {
+      "Action": "EditMap",
+      "Target": "Maps/Forest",
+      "FromFile": "images/Maps/IggyWarp.tmx",
+      "ToArea": { "X": 11, "Y": 62, "Width": 2, "Height": 3},
+      "PatchMode": "Replace"
+      },
+      {
+            "LogName": "Add Warp out of Iggy's House",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_IggysHouse",
+            "AddWarps": [
+                "7 10 Forest 13 65"
+            ]
+        },
+         {
+            "LogName": "Add Warp into Iggy's House",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "AddWarps": [
+                "12 64 {{ModId}}_IggysHouse 7 9"
+            ]
+        },
+         {
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_EvenandRiottRoom",
+            "FromFile": "images/Maps/EvenandRiottRoom.tmx"
+        },
+       
+          {
+		"LogName": "EvenandRiottRoom",
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+
+                "{{ModId}}_EvenandRiottRoom": {
+          "DisplayName": "EvenandRiottRoom",
+          "DefaultArrivalTile": { "X": 1, "Y": 1 },
+          "CreateOnLoad": { 
+            "MapPath": "Maps/{{ModId}}_EvenandRiottRoom" 
+        }
+    }
+                    }
+                },
+                  {
+            "LogName": "Add Warp out of Iggy's House",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_EvenandRiottRoom",
+            "AddWarps": [
+                "1 0 {{ModId}}_IggysHouse 10 9"
+            ]
+        },
+         {
+            "LogName": "Add Warp into Iggy's House",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_IggysHouse",
+            "AddWarps": [
+                "10 10 {{ModId}}_EvenandRiottRoom 1 1"
+            ]
+        }
+       
+    ]
+}
+
+     
+   

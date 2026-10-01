@@ -1,0 +1,34 @@
+{
+  "Changes": [
+    {
+      "LogName": "Iggy's Schedule",
+      "Target": "Characters/schedules/Iggy",
+      "Action": "EditData",
+      "Entries": {
+        "spring": "700 {{ModId}}_IggysHouse 4 5 2/1000 Forest 3 34 2/1400 Saloon 1 19 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping",
+        "Mon": "700 {{ModId}}_IggysHouse 4 5 2/930 Beach 55 17 2/1800 Saloon 1 18 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping",
+        "Tues": "700 {{ModId}}_IggysHouse 4 5 2/930 ArchaeologyHouse 22 4 2/1230 AdventureGuild 11 13 0/1500 Town 61 20 2/1800 Saloon 1 18 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping",
+        "Wed": "700 {{ModId}}_IggysHouse 4 5 2/1000 SeedShop 13 28 1/1300 Town 36 97 0/1600 Beach 55 17 2/1800 Saloon 1 18 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping",
+        "Thurs": "700 {{ModId}}_IggysHouse 4 5 2/930 Beach 55 17 2/1800 Saloon 1 18 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping",
+        "Fri": "700 {{ModId}}_IggysHouse 4 5 2/930 Beach 55 17 2/1800 Saloon 1 18 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping",
+        "Sat": "GOTO Mon",
+        "Sun": "700 {{ModId}}_IggysHouse 4 5 2/930 Beach 55 17 2/1300 Beach 18 17 2/1800 Saloon 1 18 1/2200 {{ModId}}_IggysHouse 4 5 1 iggynova_sleeping"
+      }
+    },
+    {
+      "LogName": "Even's Schedule",
+      "Target": "Characters/schedules/Even",
+      "Action": "EditData",
+      "Entries": {
+        "spring": "700 {{ModId}}_EvenandRiottRoom 6 7 2/1000 Forest 48 96 1/1400 Saloon 24 17 2/2200 {{ModId}}_EvenandRiottRoom 6 7 1 even_sleeping",
+        "Mon": "700 {{ModId}}_EvenandRiottRoom 6 7 2/1100 {{ModId}}_IggysHouse 8 6 0/1800 Town 39 70 3/2200 {{ModId}}_EvenandRiottRoom 6 7 1 even_sleeping",
+        "Tues": "700 {{ModId}}_EvenandRiottRoom 6 7 2/930 ArchaeologyHouse 22 4 2/1230 AdventureGuild 11 13 0/1500 Town 61 20 2/1800 Saloon 1 18 1/2200 {{ModId}}_EvenandRiottRoom 6 7 1 even_sleeping",
+        "Wed": "GOTO Mon",
+        "Thurs": "GOTO Mon",
+        "Fri": "GOTO Mon",
+        "Sat": "GOTO Mon",
+        "Sun": "700 {{ModId}}_EvenandRiottRoom 6 7 2/1300 Forest 20 75 1/1800 Saloon 24 17 2/2200 {{ModId}}_EvenandRiottRoom 6 7 1 even_sleeping"
+      }
+    }
+  ]
+}

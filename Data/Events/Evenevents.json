@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "Even's First Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "MP.EvenIntro/GameStateQuery PLAYER_HAS_MET Current Even/sawEvent MP.IggyIntro/Time 1200 1300": ""
+            }
+        }
+    ]
+}

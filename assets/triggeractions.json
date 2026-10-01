@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "LogName": "Trigger Actions",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_IggyComestoValley": {
+                    "Id": "{{ModId}}_IggyComestoValley",
+                    "Condition": "WEATHER Farm GreenRain",
+                    "Action": "AddMail Current {{ModId}}_IggyArrivalLetter"
+                }
+            }
+        }
+    ]
+}
